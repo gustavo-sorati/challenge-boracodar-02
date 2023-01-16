@@ -11,17 +11,6 @@ import { X } from 'phosphor-react';
 import icon360svg from '../assets/360svg.svg'
 import Link from 'next/link';
 
-const Camera = (props: any) => {
-  console.log(props.position)
-  const ref = useRef();
-  const set = useThree((state) => state.set);
-  
-  console.log(props)
-  useEffect(() => void set({ camera: ref.current }), []);
-  useFrame(() => ref.current.updateMatrixWorld());
-  return <perspectiveCamera ref={ref} {...props} />;
-};
-
 export default function Home() {
   const [viewIn360, setViewIn360] = useState(false);
   
@@ -44,8 +33,7 @@ export default function Home() {
               </button>
 
               <div id="canvas-container" className='w-[300px] h-[300px] md:w-[500px] md:h-[500px]'>
-                <Canvas>
-                  <Camera position={[0, 0, 180]} />
+                <Canvas camera={{position: [0, 0, 140]}}>
                   <ambientLight />
                   <Suspense fallback={null}>
                   <Model />

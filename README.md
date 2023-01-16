@@ -1,7 +1,7 @@
 # Desafio: BoraCodar #2
 
 <a href="https://www.figma.com/file/mFyMJCZuUESvhU3lq9Kac7/%23boraCodar---Desafio-2?node-id=0%3A1&t=rvEH40z8lDih81Ir-1">
-<h2>Layout do desafio</h2>
+Layout do desafio
 </a>
 
 
