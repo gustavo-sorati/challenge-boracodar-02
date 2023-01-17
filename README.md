@@ -8,8 +8,8 @@ Caso você queira participar dos desafios, acesse a comunidade do discord da Roc
 <br />
 
 <div align="center">
-  <img src="_docs/site-01.jpg">
-  <img src="_docs/site-02-mobile.jpg" width="375px" height="667px">
+  <img src="./_docs/site-01.JPG">
+  <img src="./_docs/site-02-mobile.JPG" width="375px" height="667px">
 </div>
 
 <div align="center">
